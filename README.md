@@ -4,14 +4,16 @@
 
 ### Training：
 
-在原版YOLOv5s基础上进行功能增加，加入j_training参数，可训练联合去雾检测模型。
+在原版YOLOv5s基础上进行功能增加，加入j_training参数，可训练联合去雾检测模型。建议先行预训练去雾模型后，再进行联合训练。
 
-运行命令 python train.py。 
+运行命令 python train.py。 网络模型文件放在configs下。
 
 训练模型可在./run文件夹下找到。
-  
+### Detection：
 
-## Other work
+打开Joint参数即可实现联合去雾与检测。  
+
+## Related work
   <p> https://github.com/mhn2836/dehaze</p>
 
 
